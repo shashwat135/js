@@ -44,3 +44,23 @@ let bigNumber = 10000000000000n
 console.log(typeof bigNumber)          //result -> bigint
 
 console.log(typeof id)                  //result -> symbol
+
+
+//****************************************************************************************************************** */
+
+//Stack(Primitive)            Heap(Non Primitive)
+
+let myName = "Rahul"
+let anotherName = myName
+anotherName = "Shashwat"
+console.log(myName)             //Rahul as passed by value another name gets a copy of myName value not its referene
+console.log(anotherName)
+
+let user = {
+    name : "Shashwat",
+    age : 21
+}
+let newUser = user
+newUser.age = 19
+console.log(user.age)       //19 as values in heap are passed by referece user and newUser points to same object in the heap
+console.log(newUser.age)
