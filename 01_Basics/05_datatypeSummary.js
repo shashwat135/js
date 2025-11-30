@@ -63,4 +63,4 @@ let user = {
 let newUser = user
 newUser.age = 19
 console.log(user.age)       //19 as values in heap are passed by referece user and newUser points to same object in the heap
-console.log(newUser.age)
+console.log(newUser.age)    //19
