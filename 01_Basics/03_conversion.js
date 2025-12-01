@@ -4,7 +4,9 @@ let score = "1000"
 
 let valueInNumber = Number(score)
 
-//console.log(typeof valueInNumber)
+console.log(typeof valueInNumber)       //number
+let num = 100
+console.log(typeof num)                 //number
 
 let score2 = "1000fff"
 //console.log(typeof score2)
@@ -26,8 +28,8 @@ let boolVal = 1;
 let boolVal2 = "Shashwat"
 let valInBoolean = Boolean(boolVal)
 let valInBoolean2 = Boolean(boolVal2)
-//console.log(valInBoolean)
-//console.log(valInBoolean2)
+console.log(valInBoolean)           //true
+console.log(valInBoolean2)          //true
 
 //1 >= true , 0 >= false
 // "" >= false , "shashwat" >= true
